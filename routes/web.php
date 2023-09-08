@@ -27,6 +27,10 @@ Route::get('/', function () {
 });
 
 
+/*Route::get('/comment', function () {
+    return view('auth.login');
+});
+*/
 
 Auth::routes();
 
